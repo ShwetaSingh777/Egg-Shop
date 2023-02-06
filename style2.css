@@ -1,0 +1,94 @@
+body{
+    background-color: aquamarine;
+    height: 100%;
+    margin: 0;
+}
+.full{
+    width: 90%;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    margin-top: 0;
+    
+    
+}
+
+
+.logo{
+    height: 5vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.navbar{
+    position: fixed;
+    width: 88%;
+    background-color: white;
+    padding-top: 20px;
+    margin: 0;
+    margin-top: 0;
+    margin-left: 14px;
+}
+nav{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    padding-bottom: 10px;
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    
+}
+
+.parent{
+    width: 100%;
+    height: 50px;
+   
+}
+.child1{
+    padding-left: 10%;
+}
+.child2{
+    text-align: right;
+    padding-left: 52%;
+}
+
+span{
+    background-color: aquamarine;
+    padding: 5px;
+}
+
+iframe{
+    over: hidden;
+    scrollbar-width: 0;
+    scrollbar-color: white;
+    scrollbar-base-color: white;
+}
+
+iframe .scrollbar-one {
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
